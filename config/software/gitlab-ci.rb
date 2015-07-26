@@ -26,7 +26,7 @@ dependency "rsync"
 dependency "postgresql"
 dependency "mysql-client" if EE
 
-source :git => "git@dev.gitlab.org:gitlab/gitlab-ci.git"
+source :git => "https://gitlab.com/gitlab-org/gitlab-ci.git"
 
 build do
   env = with_standard_compiler_flags(with_embedded_path)
