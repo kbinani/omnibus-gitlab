@@ -59,6 +59,7 @@ runtime_dependency "openssh-server"
 dependency "preparation"
 dependency "package-scripts"
 
+dependency "system-shared-libs"
 dependency "git"
 dependency "redis"
 dependency "nginx"
