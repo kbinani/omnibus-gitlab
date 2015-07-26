@@ -86,7 +86,7 @@ PLATFORMS
 
 DEPENDENCIES
   json
-  ohai
+  ohai (~> 7.2)
   omnibus!
   omnibus-software!
   package_cloud
